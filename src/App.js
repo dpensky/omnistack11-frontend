@@ -1,7 +1,14 @@
-import React, {useState} from 'react';
-import Header from './Header';
+// import React, {useState} from 'react';
+import React from 'react';
+// import Header from './Header';
+// import Logon from './pages/Logon/'
+
+import Routes from './routes';
+
+import './global.css'
 
 function App() {
+  /*
   const [counter, setCounter] = useState(0)  // retorna array [valor, funcao]
   function increment() {
     setCounter(counter+1)
@@ -14,6 +21,10 @@ function App() {
     </div>
     
   );
+  */
+ return (
+   <Routes />
+ )
 }
 
 export default App;
