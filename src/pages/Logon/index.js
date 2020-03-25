@@ -9,7 +9,7 @@ import heroesImg from '../../assets/heroes.png';
 export default function Logon() {
     return (
         <div className="logon-container">
-            <session className="form">
+            <section className="form">
                 <img src={logoImg} alt="Be The Heroe"/>
                 <form>
                     <h1>Faça seu logon</h1>
@@ -20,7 +20,7 @@ export default function Logon() {
                         Não tenho cadastro
                     </Link>
                 </form>
-            </session>
+            </section>
             <img src={heroesImg} alt="Heroes"/>
         </div>
     );
